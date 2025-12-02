@@ -39,3 +39,46 @@
 
 # debug information files
 *.dwo
+
+# Additional binary and build artifacts
+# Common build directories
+bin/
+build/
+dist/
+
+# Binary and image files
+*.elf
+*.bin
+*.img
+
+# Core dumps
+core
+core.*
+
+# Java/bytecode artifacts (optional)
+*.class
+*.jar
+
+# Misc
+.DS_Store
+
+# Ignore root-level generated binaries (e.g. compiled executables built into project root)
+# This ignores files that live in the repository root (not directories) unless explicitly allowed below.
+/*
+!/*/
+
+# Keep the git config and common source/docs files in the root (do not ignore)
+!/.gitignore
+!/.gitattributes
+!/Makefile
+!/*.c
+!/*.cc
+!/*.cpp
+!/*.cxx
+!/*.h
+!/*.hh
+!/*.hpp
+!/*.hxx
+!/*.md
+!/*.txt
+!/*.mk
